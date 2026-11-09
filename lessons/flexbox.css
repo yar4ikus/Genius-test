@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.box-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.box:nth-child(2) {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0; /*rozmer elementa dev tools */
+  /* order: 1; */
+}
+.box:last-child {
+  width: 80px;
+  height: 80px;
+  /* align-self: end; */
+}
+.box:nth-child(4) {
+  width: 79px;
+  height: 50px;
+  /* flex-grow: 1; */
+  /* order: 2; */
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.grid-box {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1 px solid black;
+  background: linear-gradient(
+    45deg,
+    gold,
+    green 50%,
+    green 40%,
+    blue 50%,
+    gold 50%
+  );
+}

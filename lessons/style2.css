@@ -1,0 +1,23 @@
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px auto;
+  display: inline-block;
+}
+.box:last-child {
+  background-color: brown;
+}
+.box:not(:last-child) {
+  background-color: aqua;
+}
+.box:nth-child(odd) {
+  color: red;
+}
+
+/* .box:nth-child(n + 3) {
+  background-color: violet;
+} */
